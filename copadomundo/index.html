@@ -11,13 +11,13 @@
 
 </head>
 <body>
-    <h1>Previsão de possíveis resultados de jogos da copa 2022</h1>
+    <h1>Previsão de possíveis resultados de jogos da Copa do Mundo de 2022</h1>
     <div class="segundo título">
-        <h2>Copa do mundo 2022<br>Escolha dois times e veja o possível resultado para um jogo da copa do mundo de 2022</h2>
+        <h2>Escolha dois times e veja o possível resultado para um jogo da copa do mundo de 2022</h2>
     </div>
-    <div class="Prever partidas da fase de grupo">
 
-    </div>
+    <div class="Prever partidas da fase de grupo">
+        <h2>Prever partidas da fase de grupo</h2>
     <label for="">Time 1 (Fase de grupo):</label>
     <select id="fasedegrupo1">
         <option value="QAT">Qatar </option>
@@ -90,11 +90,89 @@
         <option value="CRI">Costa Rica </option>
     </select>
     <button>Prever resultados de partida da fase de grupos</button>
+    </div>
 
+    <div class="Prever partidas da fase eliminatória">
+        <h2>Prever partidas da fase eliminatória</h2>
+    <label for="">Time 1 (Fase eliminatória):</label>
+    <select id="faseeliminatória1">
+        <option value="QAT">Qatar </option>
+        <option value="ARG">Argentina </option>
+        <option value="BRA">Brasil </option>
+        <option value="EQU">Equador </option>
+        <option value="URU">Uruguai </option>
+        <option value="ALE">Alemanha </option>
+        <option value="BEL">Bélgica  </option>
+        <option value="CRO">Croácia </option>
+        <option value="DIN">Dinamarca </option>
+        <option value="ESP">Espanha </option>
+        <option value="FRA">França </option>
+        <option value="HOL">Holanda </option>
+        <option value="ING">Inglaterra </option>
+        <option value="POL">Polônia </option>
+        <option value="POR">Portugal </option>
+        <option value="SER">Sérvia </option>
+        <option value="SUI">Suíça </option>
+        <option value="PGA">País de Gales</option>
+        <option value="AUS">Austrália </option>
+        <option value="ASA">Arábia Saudita</option>
+        <option value="CSU">Coreia do Sul</option>
+        <option value="IRA">Irã </option>
+        <option value="JAP">Japão </option>
+        <option value="GAN">Gana </option>
+        <option value="SEN">Senegal </option>
+        <option value="TUN">Tunísia </option>
+        <option value="MAR">Marrocos </option>
+        <option value="CAM">Camarões  </option>
+        <option value="CAN">Canadá  </option>
+        <option value="MEX">México  </option>
+        <option value="EUA">Estados Unidos </option>
+        <option value="CRI">Costa Rica </option>
+    </select>
+
+    <label for="">Time 2 (Fase eliminatória):</label>
+    <select id="faseeliminatória2">
+        <option value="QAT">Qatar </option>
+        <option value="ARG">Argentina </option>
+        <option value="BRA">Brasil </option>
+        <option value="EQU">Equador </option>
+        <option value="URU">Uruguai </option>
+        <option value="ALE">Alemanha </option>
+        <option value="BEL">Bélgica  </option>
+        <option value="CRO">Croácia </option>
+        <option value="DIN">Dinamarca </option>
+        <option value="ESP">Espanha </option>
+        <option value="FRA">França </option>
+        <option value="HOL">Holanda </option>
+        <option value="ING">Inglaterra </option>
+        <option value="POL">Polônia </option>
+        <option value="POR">Portugal </option>
+        <option value="SER">Sérvia </option>
+        <option value="SUI">Suíça </option>
+        <option value="PGA">País de Gales</option>
+        <option value="AUS">Austrália </option>
+        <option value="ASA">Arábia Saudita</option>
+        <option value="CSU">Coreia do Sul</option>
+        <option value="IRA">Irã </option>
+        <option value="JAP">Japão </option>
+        <option value="GAN">Gana </option>
+        <option value="SEN">Senegal </option>
+        <option value="TUN">Tunísia </option>
+        <option value="MAR">Marrocos </option>
+        <option value="CAM">Camarões  </option>
+        <option value="CAN">Canadá  </option>
+        <option value="MEX">México  </option>
+        <option value="EUA">Estados Unidos </option>
+        <option value="CRI">Costa Rica </option>
+    </select>
+    <button>Prever resultados de partida da fase eliminatória</button>
+    </div>
     <script>
         $(document).ready(function() {
             $('#fasedegrupo1').select2();
             $('#fasedegrupo2').select2();
+            $('#faseeliminatória1').select2();
+            $('#faseeliminatória2').select2();
         });
     </script>
 </body>
